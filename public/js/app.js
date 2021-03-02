@@ -38562,7 +38562,6 @@ var render = function() {
               staticClass: "form-control",
               attrs: {
                 id: "letter_text",
-                name: "letter_text",
                 placeholder: "Введите обращение",
                 rows: "20",
                 cols: "20"

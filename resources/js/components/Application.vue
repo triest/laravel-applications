@@ -16,7 +16,7 @@
         </div>
         <div class="form-group">
           <label class="form-check-label" for="letter_text">Обращение:</label>
-          <textarea class="form-control" id="letter_text" name="letter_text" v-model="description"
+          <textarea class="form-control" id="letter_text" v-model="description"
                     placeholder="Введите обращение" rows="20"
                     cols="20"></textarea>
           <br>

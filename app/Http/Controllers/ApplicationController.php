@@ -13,7 +13,7 @@ class ApplicationController extends Controller
     public function store(ApplicationRequest $request)
     {
         //type:File,Application,Email
-        $model = ApplicationFactory::create($request->name, $request->phone, $request->description, 'File');
+        $model = ApplicationFactory::create($request->name, $request->phone, $request->description, 'Email');
         if (!$model) {
             return response()->json(
                     [
