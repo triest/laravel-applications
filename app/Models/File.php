@@ -5,12 +5,8 @@ namespace App\Models;
 
 use Illuminate\Support\Facades\Storage;
 
-class File
+class File implements BaseApplication
 {
-
-    public $name;
-    public $phone;
-    public $description;
 
     public function save()
     {

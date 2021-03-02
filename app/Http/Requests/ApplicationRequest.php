@@ -43,7 +43,7 @@ class ApplicationRequest extends FormRequest
                 'description.required' => 'Введите обращение',
                 'phone.required' => 'Введите телефон',
                 'phone.numeric' => 'В телефоне допускаються только цифры',
-                'phone.between' => 'В телефоне допускаються только цифры',
+                'phone.between' => 'В телефоне должно быть минимум 4 цифры',
                 'phone.min' => 'Минимум :min символов',
         ];
     }

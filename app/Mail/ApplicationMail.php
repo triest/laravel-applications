@@ -16,6 +16,7 @@ class ApplicationMail extends Mailable
 
     public $name;
     public $phone;
+    public $subject="New Application";
 
     /**
      * Create a new message instance.

@@ -8,11 +8,9 @@ use App\Mail\ApplicationMail;
 
 use Illuminate\Support\Facades\Mail;
 
-class Email
+class Email implements BaseApplication
 {
-    public $name;
-    public $phone;
-    public $description;
+
     public $mail="test@mail.ru";
 
     public function save(){
